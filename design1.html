@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Day1 UI Design- Landing Page</title>
+        <style>
+            body{
+                background-color: cornsilk;
+            }
+            header{
+                margin-bottom: 10px;
+                display: flex;
+                flex-flow: row wrap;
+                background-color: white;
+
+            }
+            nav{
+                flex: 80%;
+                display: flex;
+            }
+            nav ul{
+                padding: 1%;
+                padding-left: 50%;
+                list-style-type: none;
+                flex: 2;
+                display: flex;
+            }
+            nav li{
+                display: inline;
+                text-align: center;
+                flex: 1;
+            }
+            nav a{
+                display: inline-block;
+                color: rgb(2, 8, 88);
+            }
+            .document-title{
+                display: grid;
+                grid-template-columns: 50%;
+                padding-left: 50px;
+            }
+            .document-title p{
+                font-size: 24px;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 30% 35% 35%;
+                grid-column: 1em;
+                background-color: white;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Documents</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Sign In</a></li>                    
+                </ul>
+            </nav>
+        </header>
+        <div class="document-title">
+            <p><h1>Steps In Installing RackMount Lcd Monitors</h1></p>
+            Do you know what could beat the exciting feeling of having a new computer? Make your own PC!
+        </div>
+        <div class="container">
+            <div>
+                <p><h3>Discover the best stores near you</h3></p>
+                <input name="country" list="Countries" placeholder="Location">
+                <datalist id="Countries">
+                    <option value="NORWAY">
+                    <option value="NIGERIA">
+                    <option value="ISREAL">
+                    <option value="EUROPE">
+                    </option>
+            </div>
+            <div>
+                <p><h3>Resources</h3></p>
+            </div>
+            <div>
+                <p><h3>+5k tools for you to choose from</h3></p>
+            </div> 
+        </div>
+    </body>
+</html>
