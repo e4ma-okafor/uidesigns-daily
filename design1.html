@@ -5,7 +5,7 @@
         <title>My Day1 UI Design- Landing Page</title>
         <style>
             body{
-                background-color: cornsilk;
+                background-color: whitesmoke;
             }
             header{
                 margin-bottom: 10px;
@@ -39,15 +39,16 @@
                 grid-template-columns: 50%;
                 padding-left: 50px;
             }
-            .document-title p{
-                font-size: 24px;
+            .document-title h1{
+                font-size: 32px;
             }
             .container{
                 display: grid;
-                grid-template-columns: 30% 35% 35%;
-                grid-column: 1em;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 2em;
                 background-color: white;
-                
+                border: white;
+                      
             }
         </style>
     </head>
@@ -65,12 +66,12 @@
             </nav>
         </header>
         <div class="document-title">
-            <p><h1>Steps In Installing RackMount Lcd Monitors</h1></p>
+            <h1>Steps In Installing RackMount Lcd Monitors</h1></br>
             Do you know what could beat the exciting feeling of having a new computer? Make your own PC!
         </div>
         <div class="container">
             <div>
-                <p><h3>Discover the best stores near you</h3></p>
+                <h3>Discover the best stores near you</h3></br>
                 <input name="country" list="Countries" placeholder="Location">
                 <datalist id="Countries">
                     <option value="NORWAY">
@@ -80,10 +81,11 @@
                     </option>
             </div>
             <div>
-                <p><h3>Resources</h3></p>
+                <h3>Resources</h3></br>
+                Do you know what could beat the existing feeling of having a new computer? Make your own PC!
             </div>
             <div>
-                <p><h3>+5k tools for you to choose from</h3></p>
+                <h3>+5k tools for you to choose from</h3></br>
             </div> 
         </div>
     </body>
